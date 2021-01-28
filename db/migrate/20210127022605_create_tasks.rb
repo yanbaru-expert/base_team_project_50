@@ -1,6 +1,6 @@
-class CreateMessages < ActiveRecord::Migration[6.0]
+class CreateTasks < ActiveRecord::Migration[6.0]
   def change
-    create_table :messages do |t|
+    create_table :tasks do |t|
       t.string :title
       t.string :content
 
